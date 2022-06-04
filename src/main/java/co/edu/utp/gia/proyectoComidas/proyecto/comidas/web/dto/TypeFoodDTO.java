@@ -11,7 +11,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Data
 @Builder
-public class TypeDTO implements Serializable {
+public class TypeFoodDTO implements Serializable {
 
     private Long id;
     private String type;

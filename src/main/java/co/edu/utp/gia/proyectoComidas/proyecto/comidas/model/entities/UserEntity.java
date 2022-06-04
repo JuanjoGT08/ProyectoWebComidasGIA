@@ -21,6 +21,6 @@ public class UserEntity implements Serializable {
     private String lastName;
     private String phoneNumber;
     private String email;
-    private String password;
+    private String password; 
 
 }

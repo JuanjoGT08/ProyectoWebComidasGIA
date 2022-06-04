@@ -1,0 +1,28 @@
+PROYECTO WEB "COMIDAS" GIA
+
+Funcionalidades:
+	- Log
+	- Agregar, borrar, actualizar comidas
+	- 
+
+Base de datos:
+	Tipos de comidas:
+		- Rápida
+		- Vegetariana
+		- China
+		- Mexicana
+
+	Operaciones de bases de datos:
+		- Create - Post
+		- Read - Get
+		- Update - Post
+		- Delete - Delete
+		
+	Tablas(Entidades-Modelos): --
+		- Tipos x
+		- Comidas x
+		- Usuarios x
+		- Restaurantes x
+		
+First = Entity
+Second = DTOs

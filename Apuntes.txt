@@ -24,5 +24,10 @@ Base de datos:
 		- Usuarios x
 		- Restaurantes x
 		
+		
+El ModelMapper es una dependencia
 First = Entity
 Second = DTOs
+Third = Services
+Fourth = Repository
+Fift = ServicesImpl

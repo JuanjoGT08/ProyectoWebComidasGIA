@@ -5,6 +5,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-public interface TypeRepository extends CrudRepository<TypeEntity, Long> {
-    List<TypeEntity> FindByName(String name);
+public interface TypeFoodRepository extends CrudRepository<TypeEntity, Long> {
+    List<TypeEntity> findByName(String name);
 }

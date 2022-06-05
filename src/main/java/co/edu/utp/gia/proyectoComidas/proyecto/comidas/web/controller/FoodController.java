@@ -25,11 +25,11 @@ public class FoodController {
     }
     @DeleteMapping("delete")
     public boolean deleteFood(@RequestParam("id") Long id){return foodService.deleteFood(id);}
-    @GetMapping("getId")
+    @GetMapping("getById")
     public ResponseEntity<FoodDTO> getFood(@RequestParam("id") Long id){
         return new ResponseEntity(foodService.getFood(id), HttpStatus.FOUND);
     }
-    @GetMapping("getName")
+    @GetMapping("getByName")
     public List<FoodDTO> getByName(@RequestParam("name") String name){
         return foodService.getByName(name);
     }

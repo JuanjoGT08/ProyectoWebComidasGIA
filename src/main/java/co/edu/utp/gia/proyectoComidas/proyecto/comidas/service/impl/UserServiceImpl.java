@@ -6,7 +6,6 @@ import co.edu.utp.gia.proyectoComidas.proyecto.comidas.service.UserService;
 import co.edu.utp.gia.proyectoComidas.proyecto.comidas.web.dto.UserDTO;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 @Service

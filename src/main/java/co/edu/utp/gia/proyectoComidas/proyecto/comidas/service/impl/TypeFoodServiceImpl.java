@@ -6,7 +6,9 @@ import co.edu.utp.gia.proyectoComidas.proyecto.comidas.service.TypeFoodService;
 import co.edu.utp.gia.proyectoComidas.proyecto.comidas.web.dto.TypeFoodDTO;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TypeFoodServiceImpl implements TypeFoodService {
     @Autowired
     private TypeFoodRepository typeFoodRepository;

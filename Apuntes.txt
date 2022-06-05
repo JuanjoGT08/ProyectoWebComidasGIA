@@ -30,4 +30,5 @@ First = Entity
 Second = DTOs
 Third = Services
 Fourth = Repository
-Fift = ServicesImpl
+Fift = BeanConfiguration
+Sixth = ServicesImpl

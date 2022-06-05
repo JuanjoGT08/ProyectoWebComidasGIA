@@ -14,7 +14,7 @@ import java.io.Serializable;
 public class TypeFoodDTO implements Serializable {
 
     private Long id;
-    private String type;
+    private String name;
     private String food;
 
 }

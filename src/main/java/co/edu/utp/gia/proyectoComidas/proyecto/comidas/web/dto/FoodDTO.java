@@ -15,6 +15,7 @@ public class FoodDTO implements Serializable {
 
     private Long id;
     private String type;
+    private String name;
     private String restaurant;
     private String price;
 

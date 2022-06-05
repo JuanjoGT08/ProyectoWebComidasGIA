@@ -28,7 +28,8 @@ Base de datos:
 El ModelMapper es una dependencia
 First = Entity
 Second = DTOs
-Third = Services
-Fourth = Repository
-Fift = BeanConfiguration
-Sixth = ServicesImpl
+Third = ServicesImpl @Service
+Fourth = Services 
+Fift = Repository
+Sixth = BeanConfiguration
+Seventh = Controller

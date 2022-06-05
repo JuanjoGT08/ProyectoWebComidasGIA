@@ -19,6 +19,6 @@ public class FoodEntity {
     private String type;
     private String name;
     private String restaurant;
-    private String price;
+    private Integer price;
 
 }
